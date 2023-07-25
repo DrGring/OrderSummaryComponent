@@ -8,6 +8,7 @@ body{
     font-family: 'Red Hat Display', sans-serif;
     Font-size : 16px;
     color: #fff;
+    background-color: hsl(225, 100%, 94%);
 }
 a{
     text-decoration: none;
@@ -15,8 +16,7 @@ a{
     color: rgb(83, 81, 81);
 }
 
-.project{
-    background-color: hsl(225, 100%, 94%);
+.project{ 
     display: flex;
     text-align: center;
     justify-content: center;
@@ -134,13 +134,24 @@ a:hover{
     body{
         height:700px;
     }    
+    .project{
+        background-image: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-size: 100%;
+        position: static;
+    }
 }
 @media only screen and (min-width:900px){
     body{
         height:898px;
     }
     .project{
-        background-color: hsl(225, 100%, 94%);
+        background-image: url(images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-size: 100%;
+        position: static;
         display: flex;
         align-items: center;
         text-align: center;
