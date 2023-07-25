@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    height: 650px;
+    list-style: none;
+    font-family: 'Red Hat Display', sans-serif;
+    Font-size : 16px;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(83, 81, 81);
+}
+
+.project{
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+.project_body{
+    background-color: #fff;
+    margin-top: 35px;
+    border-radius: 18px;
+    width: 327px;
+    height: 568px;
+}
+.project_body_image{
+    width: 327px;
+    height: 159px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.project_body_image img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;    
+}
+.project_body_article{
+    width: 279px;
+    height: 333px;
+    margin-left: 24px;
+    margin-top: 35px;
+    background-color: #fff;
+}
+.project_body_article h2{
+    margin-top: 0;
+    font-weight: bolder;
+    font-size: 22px;
+    color: hsl(223, 47%, 23%);
+    width: 281px;
+    height: 23px;
+}
+.project_body_article p{
+    margin-left: 15px;
+    color: hsl(0, 1%, 63%);
+    font-size: 14.5px;
+    line-height: 25px;
+    width: 246px;
+    height: 65px;
+}
+.project_body_article_music_element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    color: #000;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    width: 278px;
+    height: 81px;
+}
+.project_body_article_music_elementbox{
+    display: flex;
+    text-align: initial;
+    margin-left: 10px;
+    color: rgb(150, 150, 150);
+    width: 149px;
+    height: 46px;
+}
+.project_body_article_music_element a{
+    text-decoration: underline;
+    font-weight: bold;
+    margin-right: 15px;
+    color: rgb(89, 43, 150);
+}
+.project_body_article_music_element a:hover{
+    color: rgb(91, 91, 226);
+    text-decoration: none;
+}
+.project_body_article_music_elementbox img{
+    margin-right: 15px;
+}
+.project_body_article_music_elementboxlogo{
+    margin-top: 5px;
+    width: 150px;
+    height: 35px;
+}
+.project_body_article_music_elementbox span{
+    color: hsl(223, 47%, 23%);
+    font-size: 15px;
+    font-weight: bold;
+}
+.project_body_article_footer button{
+    border: transparent;
+    border-radius: 13px;
+    background-color: blue;
+    font-family:'Red Hat Display', sans-serif ;
+    -webkit-box-shadow: 0px 16px 15px -6px rgba(0, 89, 255, 0.34); 
+    box-shadow: 0px 16px 15px -6px rgba(68, 6, 255, 0.432);
+    font-size: 15px;
+    margin-bottom: 27px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    width: 279px;
+    height: 49px;
+}
+a:hover{
+    color: hsl(223, 47%, 23%);
+}
+.project_body_article_footer button:hover{
+    background-color: rgb(91, 91, 226);
+    transition: 0.2s;
+}
+@media only screen and (min-width:200px){
+    body{
+        height:700px;
+    }    
+}
+@media only screen and (min-width:900px){
+    body{
+        height:898px;
+    }
+    .project{
+        background-color: hsl(225, 100%, 94%);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .project_body{
+        background-color: #fff;
+        align-items: center;
+        margin-top: 35px;
+        border-radius: 18px;
+        width: 451px;
+        height: 687px;
+    }
+    .project_body_image{
+        width: 100%;
+        height: 221px;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+    .project_body_image img{
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;    
+    }
+    .project_body_article{
+        text-align: center;
+        width: 355px;
+        height: 372px;
+        margin-left: 46px;
+        margin-top: 35px;
+        background-color: #fff;
+    }
+    .project_body_article p {
+        width: 296px;
+        height: 69px;
+        margin-left: 29px;
+    }
+    .project_body_article h2{
+        margin-left: 67px;
+        font-weight: bolder;
+        width: 220px;
+        height: 27px;
+    }
+    .project_body_article_music_element{
+        width: 353px;
+        height: 94px;
+        margin-bottom: 35px;
+    }   
+    .project_body_article_footer{
+        margin-bottom: 5px;
+    } 
+    .project_body_article_footer button{
+        width: 353px;
+        height: 50px;
+    }
+}
